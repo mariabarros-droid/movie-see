@@ -1,0 +1,100 @@
+body{
+    background: black;
+}
+header{
+    width:100%;
+    background-color:darkcyan;
+    opacity: 60%;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium';
+}
+
+.title {
+    color: white;
+    background:darkslategray;
+    opacity: 85%;
+    border-radius: 12px;
+    margin: 2px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+}
+.title:hover {
+    color:greenyellow;
+    box-shadow: 10px 5px 5px rgb(49, 231, 12);
+    border-radius:20px;
+}
+.botao {
+    width: 920px;
+    background:darkslategrey;
+    color: white;
+    opacity: 85%;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    padding: 1px;
+}
+.botao:hover {
+    color:greenyellow;
+    box-shadow: 8px 5px 5px rgb(49, 231, 12);
+    border-radius:15px;
+}
+
+.botaoo {
+    width: 270px;
+    background:darkslategrey;
+    color: white;
+    opacity: 85%;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium';
+    padding: 2px;
+}
+.botaoo:hover {
+    color:rgb(243, 72, 5);
+    box-shadow: 8px 5px 5px rgb(238, 71, 5);
+    border-radius:15px;
+}
+
+.caixadetexto:hover{
+    color:greenyellow;
+    box-shadow: 8px 5px 5px rgb(49, 231, 12);
+    border-radius:15px;
+}
+.slide{
+    left: 560px;
+    margin: 10px auto;
+    display: flex;
+    position: absolute;
+    width: 250px;
+    box-shadow: 10px 5px 5px rgb(49, 231, 12);
+}
+.sobre {
+    width: 150px;
+    background:darkslategrey;
+    color: white;
+    opacity: 85%;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium';
+}
+.sobre:hover {
+    color:rgb(243, 72, 5);
+    box-shadow: 8px 5px 5px rgb(238, 71, 5);
+    border-radius:15px;
+}
+
+img {
+    width: 500px;
+    background: black;
+    margin: 40px 0 auto;
+    position: absolute;
+    left: 420px;
+    
+}

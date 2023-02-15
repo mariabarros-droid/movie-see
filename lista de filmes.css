@@ -1,0 +1,19 @@
+body {
+    background: url(background.jpeg);
+}
+.list p {
+    background: white;
+    width: 150px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    padding: 8px;
+    font-size: 15px;
+    opacity:85%;
+    border-radius: 15px;
+    border: 0;
+}
+.list p:hover {
+
+    box-shadow: 10px 5px 5px green;
+}

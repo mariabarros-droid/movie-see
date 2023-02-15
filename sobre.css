@@ -1,0 +1,54 @@
+body {
+    background: black;
+}
+img {
+    width: 100vh;
+    position: absolute;
+    left: 380px;
+}
+header{
+    width:100%;
+    background-color:darkcyan;
+    opacity: 60%;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium';
+}
+.titulo {
+    color: white;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium';
+    font-size: 15px;
+    background: darkslategray;
+    text-align: center;
+    opacity:90%;
+    margin: 5px;
+    border-radius: 8px;
+}
+.titulo:hover {
+    background: transparent;
+    box-shadow: 10px 5px 5px greenyellow;
+}
+.slide{
+    display: flex;
+    margin: 10px auto;
+    left: 330px;
+    position: absolute;
+    width: 700px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px greenyellow;
+}
+.contatos {
+    width: 250px;
+text-align: center;
+    background: darkslategray;
+    opacity: 90%;
+    color: white;
+    font-weight: bold;
+}
+.contatos:hover {
+    border-radius: 10px;
+    box-shadow:10px 5px 5px deeppink;
+}
